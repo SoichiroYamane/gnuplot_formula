@@ -1,7 +1,7 @@
 # Custom formula for gnuplot install via Homebrew
 
 ```bash
-brew install gnuplot.rb
+brew install --build-from-source gnuplot.rb
 ```
 
 Ensure that you have `DISPLAY` environment variable set to `:0` or `localhost:0` before running gnuplot.
