@@ -53,6 +53,8 @@ class Gnuplot < Formula
 
     # https://sourceforge.net/p/gnuplot/bugs/2676/
     ENV.prepend_path 'PATH', Formula['gnu-sed'].opt_libexec / 'gnubin'
+    # ENV.prepend 'CPPFLAGS', '-F/Library/Frameworks'
+    # ENV.prepend 'LDFLAGS', '-F/Library/Frameworks'
 
     if OS.mac?
       # pkg-config files are not shipped on macOS, making our job harder

@@ -1,5 +1,7 @@
 # Custom formula for gnuplot install via Homebrew
 
+## Commands
+
 ```bash
 brew install --build-from-source gnuplot.rb
 ```
@@ -15,3 +17,7 @@ or
 ```fish
 set -x DISPLAY :0
 ```
+
+## References
+
+- <https://kanekou.hatenablog.com/entry/2019/02/04/155633>
